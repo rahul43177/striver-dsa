@@ -1,2 +1,1 @@
-hello world 
-The user output is : 13
+Value of x: 10 and y: 12

@@ -1,0 +1,54 @@
+{
+	"DSA Boilerplate": {
+		"prefix": ["dsa", "striver", "cp"],
+		"body": [
+			"#include<bits/stdc++.h>",
+			"using namespace std;",
+			"",
+			"int main() {",
+			"    $0",
+			"    return 0;",
+			"}"
+		],
+		"description": "DSA/CP boilerplate with bits/stdc++.h"
+	},
+	"DSA Boilerplate with Fast IO": {
+		"prefix": ["dsafast", "fast"],
+		"body": [
+			"#include<bits/stdc++.h>",
+			"using namespace std;",
+			"",
+			"int main() {",
+			"    ios_base::sync_with_stdio(false);",
+			"    cin.tie(NULL);",
+			"    ",
+			"    $0",
+			"    return 0;",
+			"}"
+		],
+		"description": "DSA/CP boilerplate with fast I/O"
+	},
+	"For Loop": {
+		"prefix": ["fori", "for"],
+		"body": [
+			"for(int ${1:i} = 0; ${1:i} < ${2:n}; ${1:i}++) {",
+			"    $0",
+			"}"
+		],
+		"description": "Standard for loop"
+	},
+	"Vector Declaration": {
+		"prefix": ["vec", "vector"],
+		"body": [
+			"vector<${1:int}> ${2:v};"
+		],
+		"description": "Declare a vector"
+	},
+	"Print Line": {
+		"prefix": ["cout", "print"],
+		"body": [
+			"cout << $1 << endl;"
+		],
+		"description": "Print with newline"
+	}
+}
