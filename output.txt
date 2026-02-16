@@ -1,2 +1,12 @@
-Value inside function : 105
-The value inside the main function : 105
+******
+*****
+****
+***
+**
+*
+
+****
+***
+**
+*
+
