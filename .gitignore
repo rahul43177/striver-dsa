@@ -1,0 +1,32 @@
+# Compiled executables
+01-sqaure
+02-triangle
+LearnC++
+
+# All executables without extension (C++ compiled files)
+**/[0-9][0-9]-*[!.cpp][!.md][!.txt]
+
+# Input/Output test files
+input.txt
+output.txt
+
+# C++ build artifacts
+*.o
+*.out
+*.exe
+*.app
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# macOS
+.DS_Store
+*.swp
+*.swo
+*~
+
+# IDE
+.vscode/
+.idea/
+*.code-workspace
